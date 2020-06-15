@@ -1,0 +1,15 @@
+module.exports = {
+    db_host: process.env.DB_HOST || 'localhost',
+    db_port: process.env.DB_PORT || '3306',
+    db_user: process.env.DB_USER || 'root',
+    db_name: process.env.DB_NAME,
+    db_pass: process.env.DB_PASS,
+    api_version: process.env.API_VERSION,
+    secret: process.env.SECRET || '1!2@3#4$',
+    api_url: process.env.API_URL || 'http://localhost',
+    api_port: process.env.API_PORT || 3012,
+    issuer: process.env.ISSUER,
+    scope: process.env.SCOPE,
+    client_id: process.env.CLIENT_ID,
+    client_secret: process.env.CLIENT_SECRET,
+}
